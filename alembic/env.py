@@ -32,6 +32,7 @@ if config.config_file_name is not None:
 
 from app.database import Base
 from app.models.tenant import tenant
+from app.models.user import User
 target_metadata = Base.metadata
 
 # other values from the config, defined by the needs of env.py,
